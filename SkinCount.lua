@@ -1,6 +1,7 @@
--- CRM.lua
+-- SkinCount.lua
 -- @author Slyteer
 -- @version 0.1
+local addonName, AutoCalc = ...
 LastTotal = 0
 local function contains(table, val)
    for i=1,#table do
@@ -19,7 +20,7 @@ local function getPrices(itemiD)
   end
   return price
 end
-local function skinCount()
+function skinCount()
   local name ={"CUIR DESOLE", "PEAU CRUELLE LOURDE", "OS BLAFARD", "PEAU CRUELLE", "CUIR DESOLE LOURD"}
   local itemID = {172089,172097,172092,172094,172096}
   local price = getPrices(itemID)
