@@ -1,0 +1,8 @@
+## Interface: 90002
+## Title: SkinCount
+## Author: Slyteer
+## Version: 1
+## Count the value of the skins with Auctionator
+## RequiredDeps: Auctionator
+
+SkinCount.lua
