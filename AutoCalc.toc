@@ -1,8 +1,8 @@
 ## Interface: 90002
-## Title: SkinCount
+## Title: AutoCalc
 ## Author: Slyteer
 ## Version: 1
-## Count the value of the skins with Auctionator
+## Count the value of the items with Auctionator
 ## RequiredDeps: Auctionator
 
 SkinCount.lua
