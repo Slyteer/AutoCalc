@@ -1,6 +1,6 @@
 -- SkinCount.lua
 -- @author Slyteer
--- @version 0.1
+-- @version 1.0
 local addonName, AutoCalc = ...
 LastTotal = 0
 LastID = 0
