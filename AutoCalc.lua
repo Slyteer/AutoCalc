@@ -140,4 +140,5 @@ SlashCmdList["HELP"] = function(msg)
   print("Fishes and meats /food")
   print("Ores /mine")
   print("Herbs /herb")
+  print("For all /jobs")
 end

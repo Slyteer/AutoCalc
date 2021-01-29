@@ -18,3 +18,4 @@ Fishes /fish
 Fishes and meats /food
 Ores /mine
 Herbs /herb
+For all /jobs
