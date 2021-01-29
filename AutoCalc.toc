@@ -4,5 +4,5 @@
 ## Version: 1
 ## Count the value of the items with Auctionator
 ## RequiredDeps: Auctionator
-
-AutoCalc.lua
+## SavedVariables: AutoCalc
+AutoCalc.xml
