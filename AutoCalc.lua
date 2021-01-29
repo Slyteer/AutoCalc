@@ -129,3 +129,13 @@ SLASH_JOBS1 = "/jobs"
 SlashCmdList["JOBS"] = function(msg)
   switch("jobs")
 end
+
+SLASH_HELP1, SLASH_HELP2 = "/AC", "/AutoCalc"
+SlashCmdList["HELP"] = function(msg)
+  print("Skins /skin")
+  print("Meats /meat")
+  print("Fishs /fish")
+  print("Fishs and meats /food")
+  print("Ores /mine")
+  print("Herbs /herb")
+end
