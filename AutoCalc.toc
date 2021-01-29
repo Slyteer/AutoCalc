@@ -5,4 +5,4 @@
 ## Count the value of the items with Auctionator
 ## RequiredDeps: Auctionator
 
-SkinCount.lua
+AutoCalc.lua
