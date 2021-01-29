@@ -132,6 +132,8 @@ end
 
 SLASH_HELP1, SLASH_HELP2 = "/AC", "/AutoCalc"
 SlashCmdList["HELP"] = function(msg)
+  print("|cffffcc00Welcome to AutoCalc|r")
+  print("Where is a list of command for the resource you want to track")
   print("Skins /skin")
   print("Meats /meat")
   print("Fishs /fish")
