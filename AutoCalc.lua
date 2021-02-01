@@ -25,10 +25,10 @@ function switch (job)
   else
     return 0
   end
-  jobCount(itemID)
+  jobCount(itemID,job)
   return 1
 end
-function jobCount(itemID)
+function jobCount(itemID,job)
   local len = table.getn(itemID)
   local price = getPrices(itemID, len)
   local count = {}
@@ -55,7 +55,7 @@ function jobCount(itemID)
     print("|cff00ccff",GetItemInfo(itemID[i]), "|r : |cffffcc00", total[i],"|r gold")
     winwin = winwin + total[i]
   end
-  print("You have |cffffcc00", winwin,"|r gold in skin")
+  print("You have |cffffcc00", winwin,"|r gold in ", job)
   if LastID ~= itemID[1] then
     LastID = itemID[1]
     LastTotal = 0
