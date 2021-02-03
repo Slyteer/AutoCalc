@@ -3,7 +3,7 @@
 -- @version 1.0
 local addonName, AutoCalc = ...
 LastTotal = 0
-LastID = 0
+LastID = nil
 
 function switch (job)
   local itemID
@@ -56,8 +56,8 @@ function jobCount(itemID,job)
     winwin = winwin + total[i]
   end
   print("You have |cffffcc00", winwin,"|r gold in ", job)
-  if LastID ~= itemID[1] then
-    LastID = itemID[1]
+  if LastID ~= job then
+    LastID = job
     LastTotal = 0
   end
   print("You gained |cffffcc00", winwin-LastTotal,"|r Since last check")
