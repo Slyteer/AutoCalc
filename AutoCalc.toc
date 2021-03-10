@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90050
 ## Title: AutoCalc
 ## Author: Slyteer
 ## Version: 1
